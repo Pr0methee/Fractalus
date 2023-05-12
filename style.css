@@ -1,0 +1,70 @@
+html {
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    background-position: 50% 0%;
+    background-size: 25%;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: French Script MT;
+    font-size: 50px;
+    position: relative;
+    transition: font-style 2.5s;;
+}
+
+h1::after {
+    content: '';
+    transform-origin: 10 10; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    height: .1em; 
+    background: #ffffff;
+    opacity: 0.8;
+    border-radius: 75% ;
+    transition: transform .3s;
+    
+    
+}
+h1:hover::after {
+    transform: scaleX(1);
+}
+
+li{
+    color: white;
+    padding-top: 2.5%;
+    font-family: Lucida Calligraphy;
+    font-size: 35px;
+    transition: font-size 1.5s;
+}
+
+li:hover{
+    font-size: 45px;
+}
+
+ul{
+	list-style-type: none;
+	text-align:center;
+	font-size:35px;
+	font-style:italic;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2.5%;
+}
+
+p{
+    font-size: small;
+    color: gray;
+    position: fixed;
+    bottom: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
