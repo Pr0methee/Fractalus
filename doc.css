@@ -37,21 +37,6 @@ article
     box-shadow: 6px 2px 6px black ;
     background-color: aliceblue;
 }
-
-table{
-    background-color: white;
-    margin:2em;
-    margin-left: 35%;
-}
-
-td{
-    width:250px;
-}
-
-#app{
-    font-family: Harrington;
-}
-
 button{
     background-color: rgb(0, 145, 255);
     border-radius: 10px;
@@ -81,12 +66,6 @@ a{
     text-decoration: none;
 }
 
-#doc{
-    font-style: italic;
-    color: black;
-    text-decoration: underline;
-}
-
 #Home{
     font-size: small;
     color: gray;
@@ -101,9 +80,5 @@ p a{
 }
 
 p a:hover{
-    text-decoration: underline;
-}
-
-#RD_Down{
     text-decoration: underline;
 }
