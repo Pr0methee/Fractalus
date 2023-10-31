@@ -82,6 +82,11 @@ a{
 }
 
 #contact{
+    font-style: italic;
+}
+
+#contact:hover{
+    font-style: italic;
     text-decoration : underlined;
 }
 
