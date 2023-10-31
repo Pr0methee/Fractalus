@@ -81,11 +81,11 @@ a{
     text-decoration: none;
 }
 
-article a{
+#contact{
     font-style: italic;
 }
 
-article a:hover{
+#contact:hover{
     font-style: italic;
     text-decoration : underlined;
 }
