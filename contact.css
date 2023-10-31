@@ -47,12 +47,6 @@ a:hover{
     text-decoration : underlined;
 }
 
-#doc{
-    font-style: italic;
-    color: black;
-    text-decoration: underline;
-}
-
 #Home{
     font-size: small;
     color: gray;
@@ -67,9 +61,5 @@ p a{
 }
 
 p a:hover{
-    text-decoration: underline;
-}
-
-#RD_Down{
     text-decoration: underline;
 }
