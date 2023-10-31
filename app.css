@@ -81,6 +81,10 @@ a{
     text-decoration: none;
 }
 
+#contact{
+    text-decoration : underlined;
+}
+
 #doc{
     font-style: italic;
     color: black;
