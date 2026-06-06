@@ -1,0 +1,1 @@
+Style("#000080","","TkFixedFont")
